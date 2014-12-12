@@ -8,6 +8,8 @@ gem 'rails', '4.1.0'
 
 gem 'rails_12factor'
 
+gem 'unicorn'
+
 group :production do
 	gem 'pg'
 end
