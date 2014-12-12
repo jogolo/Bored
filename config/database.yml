@@ -28,6 +28,4 @@ production:
 	database: Bored_production
 	pool: 5
 	username: Bored
-	password:
-
-	
+	password: balla2005
