@@ -21,11 +21,11 @@ test:
   database: db/test.sqlite3
 
 production:
-  #<<: *default
-  #database: db/production.sqlite3
-	adapter: postgresql
-	encoding: unicode
-	database: Bored_production
-	pool: 5
-	username: Bored
-	password: balla2005
+  <<: *default
+  database: db/production.sqlite3
+	#adapter: postgresql
+	#encoding: unicode
+	#database: Bored_production
+	#pool: 5
+	#username: Bored
+	#password: balla2005
